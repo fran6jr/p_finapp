@@ -2,7 +2,7 @@ import React, {useState, useEffect, useReducer} from "react";
 
 
 function User() {
-    const [name, setName] = useState("Frannc");
+    const [name, setName] = useState("Franc");
   
     useEffect(() => {
       console.log(`your name is ${name}.`);
